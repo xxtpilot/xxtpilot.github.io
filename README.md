@@ -32,6 +32,7 @@ python scripts/check_site.py
 
 - 修改页面：直接编辑对应 Markdown 文件；新增页面后更新 `mkdocs.yml` 的 `nav`。
 - 替换截图：更新 `docs/assets/images/` 中的截图并同步说明文字。`entry-original.png` 保留原始文件，页面展示的 `entry-page.svg` 仅裁掉外围背景，保留整个白色页面。
+- 站点 Logo：`docs/assets/images/logo.png`，与程序使用同一张透明书本图，用于页眉、首页标题与网站图标。
 - 更新功能：先核对脚本源码，再修改使用指南；本地新增功能列入“近期进展”，公开版本日期以原项目 Releases 为准。
 - 安装链接：始终指向原项目完整的 `学习通AI助手.user.js`，不在官网仓库分发源码片段。
 
