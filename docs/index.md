@@ -9,6 +9,8 @@ hide:
 
 在学习通网页中提供题目分析、答案预填和课程学习辅助，通过 Tampermonkey 使用。
 
+[一键下载脚本](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases/latest/download/chaoxing-ai-assistant.user.js){ .md-button .md-button--primary }
+
 [安装脚本](install.md) · [使用指南](guide/index.md) · [GitHub](https://github.com/zhu-hailin/chaoxing-ai-assistant)
 
 想了解程序怎样运行，可阅读[原理介绍](principles/index.md)。
