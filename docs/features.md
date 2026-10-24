@@ -55,4 +55,4 @@ description: 了解 学习通AI助手 的题目图文分析、原生预填、课
 
 ### 页面入口
 
-[![助手入口与一键生成答案，完整原图](assets/images/entry-original.png)](assets/images/entry-original.png)
+[![助手入口与一键生成答案](assets/images/entry-page.svg)](assets/images/entry-page.svg)

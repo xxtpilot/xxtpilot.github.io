@@ -60,7 +60,7 @@ def main():
     if not index.get("docs") or "zh" not in index.get("config", {}).get("lang", []):
         errors.append("Chinese search index is missing or empty")
     expected_images = {"study-queue.png", "catalog.png", "other-features.png", "tools.png",
-                       "questions.png", "entry-original.png", "course-selection.png"}
+                       "questions.png", "entry-page.svg", "course-selection.png"}
     for image in expected_images:
         if not (ROOT / "assets/images" / image).is_file():
             errors.append(f"Missing product image: {image}")
