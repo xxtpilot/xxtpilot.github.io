@@ -5,7 +5,7 @@ hide:
   - toc
 ---
 
-# ![书本图标](assets/images/logo.png) 学习通AI助手
+# <img src="assets/images/logo.png" alt="" width="24" height="24" /> 学习通AI助手
 
 在学习通网页中提供题目分析、答案预填和课程学习辅助，通过 Tampermonkey 使用。
 

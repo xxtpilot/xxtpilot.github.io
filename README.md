@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 python -m mkdocs serve
 ```
 
-打开终端中显示的本地地址。页面正文位于 `docs/`，导航与主题配置位于 `mkdocs.yml`，自定义样式位于 `docs/assets/stylesheets/extra.css`。
+打开终端中显示的本地地址。页面正文位于 `docs/`，导航与主题配置位于 `mkdocs.yml`，自定义样式位于 `docs/assets/stylesheets/extra-v2.css`。
 
 ## 构建与发布
 

@@ -1,5 +1,6 @@
-.md-header__button.md-logo img { width: 32px; height: 32px; object-fit: contain; }
-.md-typeset h1 img { width: 40px; height: 40px; vertical-align: middle; }
+.md-header__button.md-logo img,
+.md-nav__button.md-logo img { width: 24px; height: 24px; object-fit: contain; }
+.md-typeset h1 img { width: 24px; height: 24px; vertical-align: middle; }
 .md-content__inner > .md-content__button { display: none; }
 .md-typeset table img { width: 100%; height: auto; }
 @media (max-width: 40em) {

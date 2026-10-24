@@ -62,7 +62,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 extra_css:
-  - assets/stylesheets/extra.css
+  - assets/stylesheets/extra-v2.css
 validation:
   links:
     anchors: warn
