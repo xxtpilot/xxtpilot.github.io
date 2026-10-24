@@ -58,7 +58,11 @@ markdown_extensions:
         kwds:
           case: lower
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 extra_css:
@@ -86,6 +90,14 @@ nav:
       - 章节目录: guide/catalog.md
       - 模型配置: guide/models.md
       - 工具与界面: guide/tools.md
+  - 原理介绍:
+      - principles/index.md
+      - 启动与内部架构: principles/architecture.md
+      - 题目识别与作答算法: principles/questions.md
+      - 任务定位与学习执行: principles/study-engine.md
+      - 跨页交接与课程队列: principles/navigation-queue.md
+      - 模型、数据与保护机制: principles/data-safety.md
+      - 滚轮、菜单与窗口: principles/interface.md
   - 常见问题: faq.md
   - 更新日志: changelog.md
   - 关于项目: about.md

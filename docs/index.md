@@ -11,6 +11,8 @@ hide:
 
 [安装脚本](install.md) · [使用指南](guide/index.md) · [GitHub](https://github.com/zhu-hailin/chaoxing-ai-assistant)
 
+想了解程序怎样运行，可阅读[原理介绍](principles/index.md)。
+
 ## 主要功能
 
 - **题目与答案**：提取测验、作业的文字和图片，调用模型分析，核对后预填答案。

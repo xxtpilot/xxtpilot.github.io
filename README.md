@@ -34,6 +34,7 @@ python scripts/check_site.py
 - 替换截图：更新 `docs/assets/images/` 中的截图并同步说明文字。`entry-original.png` 保留原始文件，页面展示的 `entry-page.svg` 仅裁掉外围背景，保留整个白色页面。
 - 站点 Logo：`docs/assets/images/logo.png`，与程序使用同一张透明书本图，用于页眉、首页标题与网站图标。
 - 更新功能：先核对脚本源码，再修改使用指南；本地新增功能列入“近期进展”，公开版本日期以原项目 Releases 为准。
+- 原理介绍：正文位于 `docs/principles/`，按源码调用链维护；图表使用 Mermaid 代码块，由 Material 原生支持渲染，配置依据见[官方文档](https://squidfunk.github.io/mkdocs-material/reference/diagrams/)。参数和函数名随实际源码更新。
 - 安装链接：始终指向原项目完整的 `学习通AI助手.user.js`，不在官网仓库分发源码片段。
 
 官网不收集 API Key，不使用统计、广告或在线客服。截图由用户提供；产品源码与官网分别维护。
