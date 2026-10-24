@@ -18,7 +18,7 @@ description: 排查 学习通AI助手 入口、模型请求、任务状态、顺
 
 ## 官网截图与安装后的菜单不同
 
-官网按本地最新实现介绍，公开安装脚本由原项目发布。先核对当前脚本版本，并从[发行版](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases)查看更新；不同页面也会按能力显示不同入口。
+官网按已发布的 v1.31 介绍，公开安装脚本由原项目发布。先核对当前脚本版本，并从[发行版](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases)查看更新；不同页面也会按能力显示不同入口。
 
 ## 脚本免费，为什么还需要 API Key
 

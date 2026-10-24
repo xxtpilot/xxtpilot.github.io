@@ -7,9 +7,9 @@ description: 查看 学习通AI助手 的近期实现进展和原项目已发布
 
 安装与下载使用原项目的公开脚本。完整历史及正式发布日期以 [GitHub Releases](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases)为准。
 
-## v1.31 · 待发布
+## v1.31 · 2026-10-24
 
-以下内容来自当前本地实现，等待原项目后续发布同步：
+[查看正式发行版与完整脚本](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases/tag/v1.31)。
 
 - 课程首页启动：通过原生入口进入学习页，交接本次配置与启动身份。
 - 首页目录同步：展示章节状态，定位并直达首个未完成或需核对的章节。

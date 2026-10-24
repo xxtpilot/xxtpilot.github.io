@@ -25,7 +25,7 @@ description: 调整学习休息、视频信息识别、课程菜单与助手窗�
 
 课程菜单管理仅在进入具体课程后提供，个人空间侧栏保留原样。任务运行期间，菜单导航按资格禁用。
 
-[![其他功能中的课程菜单管理](../assets/images/other-features.png)](../assets/images/other-features.png)
+[![其他功能中的课程菜单管理](../assets/images/other-features-menu.jpg)](../assets/images/other-features-menu.jpg)
 *菜单项目按当前课程页面动态读取。*
 
 ## 窗口操作

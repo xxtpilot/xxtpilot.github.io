@@ -51,7 +51,7 @@ description: 了解 学习通AI助手 的题目图文分析、原生预填、课
 | **题目与答案** | **课程选择** |
 | [![题目与答案](assets/images/questions.png)](assets/images/questions.png) | [![课程选择](assets/images/course-selection.png)](assets/images/course-selection.png) |
 | **工具设置** | **其他功能** |
-| [![工具设置](assets/images/tools.png)](assets/images/tools.png) | [![其他功能](assets/images/other-features.png)](assets/images/other-features.png) |
+| [![工具设置](assets/images/tools.png)](assets/images/tools.png) | [![其他功能](assets/images/other-features-menu.jpg)](assets/images/other-features-menu.jpg) |
 
 ### 页面入口
 
