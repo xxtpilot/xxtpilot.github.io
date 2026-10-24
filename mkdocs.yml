@@ -1,0 +1,90 @@
+site_name: 学习通AI助手
+site_description: XXTPilot（学习通 AI 助手）——题目图文分析、答案预填与课程学习辅助。
+site_url: https://xxtpilot.github.io/
+site_author: XXTPilot
+repo_url: https://github.com/zhu-hailin/chaoxing-ai-assistant
+repo_name: 项目源码
+edit_uri: https://github.com/xxtpilot/xxtpilot.github.io/edit/main/docs/
+copyright: Copyright &copy; 2026 XXTPilot · 第三方学习辅助工具
+theme:
+  name: material
+  language: zh
+  font: false
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切换到浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 跟随系统主题
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+extra_css:
+  - assets/stylesheets/extra.css
+validation:
+  links:
+    anchors: warn
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zhu-hailin/chaoxing-ai-assistant
+      name: 项目源码
+    - icon: material/message-outline
+      link: https://github.com/zhu-hailin/chaoxing-ai-assistant/issues
+      name: 问题反馈
+nav:
+  - 首页: index.md
+  - 核心功能: features.md
+  - 安装教程: install.md
+  - 使用指南:
+      - guide/index.md
+      - 题目与答案: guide/questions.md
+      - 单课程学习: guide/study.md
+      - 课程队列: guide/course-queue.md
+      - 章节目录: guide/catalog.md
+      - 模型配置: guide/models.md
+      - 工具与界面: guide/tools.md
+  - 常见问题: faq.md
+  - 更新日志: changelog.md
+  - 关于项目: about.md

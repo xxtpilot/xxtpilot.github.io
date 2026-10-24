@@ -1,0 +1,12 @@
+.md-header__button.md-logo,
+.md-nav__button.md-logo { display: none; }
+.md-content__inner > .md-content__button { display: none; }
+.md-typeset table img { width: 100%; height: auto; }
+@media (max-width: 40em) {
+  .md-typeset table:has(img),
+  .md-typeset table:has(img) tbody,
+  .md-typeset table:has(img) tr,
+  .md-typeset table:has(img) td { display: block; width: 100%; }
+  .md-typeset table:has(img) thead,
+  .md-typeset table:has(img) tr:has(strong) { display: none; }
+}
