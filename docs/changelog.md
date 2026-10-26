@@ -7,6 +7,15 @@ description: 查看 学习通AI助手 的近期实现进展和原项目已发布
 
 安装与下载使用原项目的公开脚本。完整历史及正式发布日期以 [GitHub Releases](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases)为准。
 
+## v1.32 · 2026-10-27
+
+- 界面统一为白色底与蓝色品牌色，更新蓝色书本图标、题目卡片和状态展示，精简请求详情。
+- 设置入口移至侧栏，新增独立账号信息页和“隐藏头像”开关；“其他功能”新增视频水印与已结课课程显示开关。
+- 优化明确无任务尾页的等待，适配无任务点的内嵌阅读材料，保留任务完成确认与异常保护。
+- 字体映射与图标完整内置，构建使用固定本地资源；减少单次题目解析的重复查询。
+
+[查看正式发行版与完整脚本](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases/tag/v1.32)。
+
 ## v1.31 · 2026-10-24
 
 [查看正式发行版与完整脚本](https://github.com/zhu-hailin/chaoxing-ai-assistant/releases/tag/v1.31)。

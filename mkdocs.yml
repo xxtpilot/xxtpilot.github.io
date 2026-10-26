@@ -10,8 +10,8 @@ theme:
   name: material
   language: zh
   font: false
-  logo: assets/images/logo.png
-  favicon: assets/images/logo.png
+  logo: assets/images/logo-blue.png
+  favicon: assets/images/logo-blue.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
